@@ -1,0 +1,5 @@
+# Portofolio-Softeng
+
+Projek yang dibuat berupa situs website sederhana yang memuat nama, foto diri, penjelesan singkat, minat dan bakat, kepanitiaan dan pencapaian, serta kontak di beberapa media sosial. Teknologi yang digunakan berupa html, css dan js serta program dapat dijalankan dengan mengakses link pada html. Bonus yang dikerjakan hanya menambahkan beberapa elemen pada script.js sehingga tampilan responsif. Kesulitan yang dihadapi dalam pembuatan website portofolio ini cukup banyak seperti pengguna yang belum berpengalaman tentang software engineering, sampai waktu yang terbatas walaupun dengan durasi pengerjaan sekitar 1 minggu. Namun, seluruh pengerjaan murni diketik pembuat walaupun menggunakan beberapa sumber untuk pembuatan kode (dan belum terlalu memodifikasinya).
+
+Ahmad Evander Ruizhi Xavier/19623216/Klan I

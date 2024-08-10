@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Mengatur charset ke UTF-8 untuk mendukung karakter internasional -->
+    <meta charset="UTF-8">
+    <!-- Mengatur viewport untuk responsive design pada perangkat mobile -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Judul halaman yang akan tampil di tab browser -->
+    <title>Evander's Portfolio</title>
+    <!-- Link ke file CSS eksternal untuk styling halaman -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Link ke Boxicons untuk ikon sosial media -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+    <!-- Bagian header dengan navigasi dan logo -->
+    <header class="header">
+        <!-- Logo dengan tautan menuju bagian 'home' -->
+        <a href="#home" class="logo">Evander <span>Ruizhi</span></a>
+
+        <!-- Ikon menu untuk navigasi mobile, akan tampil di perangkat kecil -->
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <!-- Navigasi utama -->
+        <nav class="navbar">
+            <!-- Tautan ke berbagai bagian halaman -->
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Experiences</a>
+        </nav>
+    </header>
+
+    <!-- Bagian home -->
+    <section class="home" id="home"> 
+
+        <!-- Gambar profil -->
+        <div class="home-img">
+            <img src="image.jpg" alt="Gambar Profil">
+        </div>
+
+        <!-- Konten teks untuk bagian home -->
+        <div class="home-content">
+            <!-- Judul utama halaman -->
+            <h1>Evander's <span>Portofolio</span></h1>
+
+            <!-- Nomor identitas atau informasi kontak -->
+            <p>19623216</p>
+
+            <!-- Ikon sosial media dengan tautan masing-masing -->
+            <div class="social-icons">
+                <a href="mailto:evanderruizhi@gmail.com" target="_blank" title="Email">
+                    <i class='bx bxl-gmail'></i>
+                </a>
+            
+                <a href="https://www.instagram.com/vanderuizhi" target="_blank" title="Instagram">
+                    <i class='bx bxl-instagram-alt'></i>
+                </a>
+            
+                <a href="https://www.facebook.com/share/iDCgiJuQrq4Fq2db/?mibextid=qi2Omg" target="_blank" title="Facebook">
+                    <i class='bx bxl-facebook-square'></i>
+                </a>
+            
+                <a href="https://wa.me/085881803591" target="_blank" title="WhatsApp">
+                    <i class='bx bxl-whatsapp'></i>
+                </a>
+            </div>
+            
+            <!-- Tombol dengan tautan ke bagian lain atau halaman lain -->
+            <a href="#" class="btn">Home</a>
+        </div>
+    </section>
+
+    <!-- Bagian tentang diri (About) -->
+    <section class="about" id="about">
+    <div class="about-content">
+        <!-- Judul dengan animasi teks -->
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3 class="text-animation">
+            <span></span>
+        </h3>
+        <!-- Deskripsi tentang diri -->
+        <p>Ahmad Evander Ruizhi Xavier (Evan) mahasiswa ITB jurusan STI'23, memiliki minat dalam software
+        development dan business analyst, serta memiliki bakat dalam problem solving.</p>
+        <!-- Tombol dengan tautan ke bagian lain atau halaman lain -->
+        <a href="#" class="btn">Home</a>
+    </div>
+    <!-- Gambar terkait dengan bagian tentang diri -->
+    <div class="about-img">
+        <img src="image.jpg" alt="Gambar tentang diri">
+    </div>
+    </section>
+
+    <!-- Bagian pengalaman atau layanan (Services) -->
+    <section class="services" id="services">
+        <!-- Judul bagian layanan -->
+        <h2 class="heading">Experiences</h2>
+
+        <!-- Kontainer untuk daftar layanan atau pengalaman -->
+        <div class="services-container">
+
+            <!-- Kotak layanan 1 -->
+            <div class="service-box">
+                <div class="service-info">
+                    <h4>Panitia Sponsorship Makrab STEI-K'23</h4>
+                    <p>April 2024 - Mei 2024, Best Staff</p>
+                </div>
+            </div>
+
+            <!-- Kotak layanan 2 -->
+            <div class="service-box">
+                <div class="service-info">
+                    <h4>Panitia Sponsorship IMPACT 4.0</h4>
+                    <p>Mei 2024 - Juni 2024</p>
+                </div>
+            </div>
+
+            <!-- Kotak layanan 3 -->
+            <div class="service-box">
+                <div class="service-info">
+                    <h4>Panitia Properti OSKM 2024</h4>
+                    <p>Ongoing</p>
+                </div>
+            </div>
+
+            <!-- Kotak layanan 4 -->
+            <div class="service-box">
+                <div class="service-info">
+                    <h4>Project Tubes PRD</h4>
+                    <p>Aquaponik sederhana</p>
+                </div>
+            </div>
+
+            <!-- Kotak layanan 5 -->
+            <div class="service-box">
+                <div class="service-info">
+                    <h4>Project Tubes Pengkom</h4>
+                    <p>Currency converter</p>
+                </div>
+            </div>
+
+            <!-- Kotak layanan 6 -->
+            <div class="service-box">
+                <div class="service-info">
+                    <h4>Project Tubes Daspro</h4>
+                    <p>Game Development</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Link ke file JavaScript eksternal untuk interaktivitas -->
+    <script src="script.js"></script>
+</body>
+</html>
